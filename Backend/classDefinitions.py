@@ -2,13 +2,14 @@
 
 # plan to use SOAP APIs because they are more secure
 
+# https://github.com/anmolsaxena10/myHospital
 
 class Hospital():
 	"""docstring for hospital:
 		this is the hospital information
 
 		attributes:
-			name
+			name	
 			address
 			
 		methods:
@@ -58,7 +59,6 @@ class Admin():
 			name
 			Skill level
 			Trainings
-		
 		actions:
 			message: successful addition
 
@@ -101,13 +101,11 @@ class Physicians():
 
 		methods:
 			get_information, returns individual physician information
-
-
+			write_to_db, params 
 	"""
 	def __init__(self, phys_id):
 		super(Physicians, self).__init__()
 		self.id = phys_id
-		self.hospital_id = 
 		self.status = status
 
 	def clock_in():
@@ -126,3 +124,6 @@ class Physicians():
 		print("clocked in")
 		pass
 
+	def write_to_db(params):
+		#
+		pass
