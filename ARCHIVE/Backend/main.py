@@ -5,5 +5,4 @@ import APIs
 print("recieve form from Hospital admin to initiate new Physician")
 
 
-## actual code...
 

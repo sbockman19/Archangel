@@ -11,6 +11,7 @@ class Hospital():
 		attributes:
 			name	
 			address
+			wards
 			
 		methods:
 			get_capacity, gets number of specific hospital beds
