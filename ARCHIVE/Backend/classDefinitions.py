@@ -6,19 +6,20 @@
 
 class Hospital():
 	"""docstring for hospital:
-		this is the hospital information
+		this is the hospital data 
 
 		attributes:
-			name	
-			address
 			wards
 			
 		methods:
 			get_capacity, gets number of specific hospital beds
 	"""
+	info = "This class is used to store dynamic hospital data, such as wards, capacity, etc."
+
 	def __init__(self, hospital_id):
-		super(Hopital, self).__init__()
-		self.hospital_id = hospital_id
+		super(Hospital, self).__init__()
+		self.hospitalId = hospital_id
+		print(self.hospitalId)
 
 	def get_capacity():
 		"""
